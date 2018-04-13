@@ -6,6 +6,10 @@
 <hibernate-configuration>  
   
     <session-factory>  
+              <!-- data sharing between controllers
+                    Service
+                    Input/output
+                    observable-->
         <!-- <property name="hbm2ddl.auto">update</property>  
         <property name="dialect">org.hibernate.dialect.PostgreSQLDialect</property>  
         <property name="connection.url">jdbc:postgresql://127.0.0.1:5432/student</property>  
